@@ -35,6 +35,10 @@ python3 run_batch.py
 ```
 
 ## Result
+```bash
+bash monitor-crash.sh # monitor crash files
+```
+
 tests/output_[idx]
 ```
 $ ls tests/output_0
