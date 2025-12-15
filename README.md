@@ -22,8 +22,15 @@ python3 -m src.fuzzer.fuzzer [browser type] [browser binary] [idx]
 - browser type: chrome, firefox, edge
 - browser binary: browser binary path
 - idx: test idx
-```
-$ python3 -m src.fuzzer.fuzzer chrome chrome/103.0.5042.0_999146/chrome 0
+```bash
+conda activate fuzzorigin
+
+python3 -m src.fuzzer.fuzzer chrome chrome/103.0.5042.0_999146/chrome 0
+python3 -m src.fuzzer.fuzzer chrome chrome/143.0.7499.109_1536376/chrome 0
+
+# batch run
+tmux new -s fuzzorigin
+python3 run_batch.py
 ```
 
 ## Result

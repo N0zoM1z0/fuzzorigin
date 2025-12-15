@@ -159,8 +159,8 @@ class Downloader:
 
 def main(argv):
     if len(argv) < 2:
-        print("Usage: python3 chrome_download.py [version]")
-        print("Example: python3 chrome_download.py 103.0.5042.0")
+        print("Usage: python3 chrome_downloader.py [version]")
+        print("Example: python3 chrome_downloader.py 103.0.5042.0")
         return
     downloader = Downloader(os_type="Linux_x64")
     downloader.download_binary(argv[1])
