@@ -10,7 +10,7 @@ CHROME_PATH = "chrome/143.0.7499.109_1536376/chrome"
 
 # 并行数量：建议设置为 CPU 核心数的 50% - 80%
 # 比如 64 核机器，可以先试 30 个
-NUM_INSTANCES = 10 
+NUM_INSTANCES = 40 
 
 # 起始 IDX：如果你有多台机器，可以改这个，防止冲突
 START_IDX = 0 

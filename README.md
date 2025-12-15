@@ -30,6 +30,7 @@ python3 -m src.fuzzer.fuzzer chrome chrome/143.0.7499.109_1536376/chrome 0
 
 # batch run
 tmux new -s fuzzorigin
+sudo swapoff -a # disable swap to improve performance
 python3 run_batch.py
 ```
 
